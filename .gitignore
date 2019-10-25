@@ -1,0 +1,15 @@
+# package directories
+node_modules
+jspm_packages
+
+# macos
+.DS_Store
+
+# npm
+package-lock.json
+
+# yarn
+yarn-error.log
+
+# jest
+coverage

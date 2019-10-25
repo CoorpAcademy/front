@@ -1,0 +1,18 @@
+{
+  "command": {
+    "publish": {
+      "ignoreChanges": [
+        "*.md",
+        "*.txt",
+        "*.test.js",
+        "test/**"
+      ]
+    }
+  },
+  "packages": [
+    "packages/*"
+  ],
+  "useWorkspaces": true,
+  "version": "independent",
+  "npmClient": "yarn"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "@coorpacademy/front",
+  "version": "0.0.1",
+  "description": "Front monorepo",
+  "repository": {
+    "type": "git",
+    "url": "git+github.com:coorpacademy/front.git"
+  },
+  "author": "Vincent Catillon <contact@vincent-catillon.fr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coorpacademy/front/issues"
+  },
+  "homepage": "https://github.com/coorpacademy/front#readme",
+  "devDependencies": {
+    "lerna": "^3.18.3"
+  }
+}
