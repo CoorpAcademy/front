@@ -21,6 +21,10 @@
     "lerna": "^3.18.3"
   },
   "dependencies": {
-    "@coorpacademy/mobile": "file:packages/mobile"
+    "@coorpacademy/components": "file:packages/components",
+    "@coorpacademy/core": "file:packages/core",
+    "@coorpacademy/desktop": "file:packages/desktop",
+    "@coorpacademy/mobile": "file:packages/mobile",
+    "@coorpacademy/web": "file:packages/web"
   }
 }
