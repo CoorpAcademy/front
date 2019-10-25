@@ -1,5 +1,30 @@
 {
   "name": "@coorpacademy/desktop",
   "version": "0.0.1",
-  "keywords": ["coorpacademy", "desktop"]
+  "keywords": [
+    "coorpacademy",
+    "desktop"
+  ],
+  "main": "public/index.js",
+  "scripts": {
+    "prebuild": "copyfiles -u 2 \"../web/build/**/*\" static/",
+    "build": "electron-webpack",
+    "electron": "electron dist/main/main.js",
+    "package": "electron-builder",
+    "start": "electron-webpack dev"
+  },
+  "dependencies": {
+    "source-map-support": "^0.5.13"
+  },
+  "devDependencies": {
+    "@coorpacademy/web": "0.0.1",
+    "copyfiles": "^2.1.1",
+    "electron": "^7.0.0",
+    "electron-builder": "^21.2.0",
+    "electron-webpack": "^2.7.4",
+    "webpack": "^4.41.2"
+  },
+  "resolutions": {
+    "webpack-sources": "^1.1.0"
+  }
 }
