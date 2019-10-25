@@ -1,7 +1,12 @@
 {
   "name": "@coorpacademy/front",
   "version": "0.0.1",
+  "private": true,
   "description": "Front monorepo",
+  "keywords": ["coorpacademy", "front"],
+  "workspaces": [
+    "packages/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+github.com:coorpacademy/front.git"
